@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/tospery/Toast-Swift-Hi"
   s.license      = 'MIT'
   s.author       = { "YangJianxiang" => "tospery@gmail.com" }
-  s.source       = { :git => "https://github.com/tospery/Toast-Swift-Hi.git", :tag => "5.0.0" }
+  s.source       = { :git => "https://github.com/tospery/Toast-Swift-Hi.git", :tag => s.version.to_s }
   s.platform     = :ios
   s.source_files = 'Toast'   
   s.framework    = 'QuartzCore'
